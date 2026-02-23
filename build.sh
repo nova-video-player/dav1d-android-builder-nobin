@@ -23,6 +23,7 @@ fi
 source ../../AVP/android-setup-light.sh
 
 LOCAL_PATH=$($READLINK -f .)
+mkdir -p ../prebuilt/dav1d
 PREBUILT_DIR=$($READLINK -f ../prebuilt/dav1d)
 
 ANDROID_API=21
