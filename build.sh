@@ -107,7 +107,7 @@ if [ -f "${PREBUILT_DIR}/lib/${ABI}/libdav1d.so" ]; then
 fi
 
 if [ ! -d dav1d ]; then
-  git -c http.sslVerify=false clone https://code.videolan.org/videolan/dav1d -b 1.5.3
+  git -c http.sslVerify=false clone https://code.videolan.org/videolan/dav1d -b 1.5.4
 fi
 
 cd dav1d
